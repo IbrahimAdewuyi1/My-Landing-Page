@@ -1,0 +1,423 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.45;
+}
+.hero {
+    /* height: 100vh; */
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("bacimg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+/* ############## Nav-bar ############## */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+h2.logo {
+    font-size: 28px;
+}
+span {
+    color: white;
+}
+
+ul.topnav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+ul.topnav li.dropdownIcon {
+    display: none;
+}
+ul.topnav li a {
+    text-decoration: none;
+    font-weight: lighter;
+    color: black;
+    font-size: 20px;
+}
+ul.topnav li a:hover {
+    color: white;
+    transition: .4s;
+    text-decoration: underline;
+}
+h1.firstText{
+    text-align: justify;
+    padding-top: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    min-height: 100%;
+    font-size: 80px;
+    color: white;
+    font-weight: bolder;
+    line-height: 1.45;
+}
+div.section2 {
+    width: 100%;
+    margin: auto;
+    padding-top: 6%;
+    padding-bottom: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+h4.secondText {
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 1.45;
+}
+p.thirdText {
+    font-size: 20px;
+    line-height: 1.45;
+}
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+button.vision {
+    display: block;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 17px 20px;
+    background:rgb(163, 130, 108);
+    text-align: center;
+    border-radius: 6px;
+    border: none;
+}
+.vision a {
+    text-decoration: none;
+    color: #fff;
+}
+button.vision:hover {
+    background: #cfb491;
+    transition: .5s;
+}
+
+div.section3 {
+    width: 100%;
+    background-color: rgb(64, 64, 76);
+    padding-top: 8%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+div.learning {
+    padding-left: 4%;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.45;
+}
+div.learning h1 {
+    color: #fff;
+    font-size: 48px;
+    padding-bottom: 3%;
+    font-weight: bolder;
+
+}
+div.learning p {
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 2%;
+}
+div.learning button {
+    font-size: 20px;
+    text-align: center;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 7px;
+    background:rgb(163, 130, 108);
+    color: #fff;
+}
+div.learning button:hover {
+    background: #cfb491;
+    transition: .5s;
+    cursor: pointer;
+}
+div.education h1 {
+    color: #fff;
+    font-size: 48px;
+    padding-bottom: 3%;
+    font-weight: bolder;
+}
+div.education p {
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 2%;
+    line-height: 1.45;
+}
+div.education button {
+    font-size: 20px;
+    text-align: center;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 7px;
+    background:rgb(163, 130, 108);
+    color: #fff;
+}
+div.education button:hover {
+    background: #cfb491;
+    transition: .5s;
+    cursor: pointer;
+}
+div.educationImg {
+    padding-left: 4%;
+}
+div.support {
+    padding-left: 4%;
+}
+div.support h1 {
+    color: #fff;
+    font-size: 48px;
+    padding-bottom: 3%;
+    font-weight: bolder;
+}
+div.support p {
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 2%;
+    line-height: 1.45;
+}
+div.support button {
+    font-size: 20px;
+    text-align: center;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 7px;
+    background:rgb(163, 130, 108);
+    color: #fff;
+}
+div.support button:hover {
+    background: #cfb491;
+    transition: .5s;
+    cursor: pointer;
+}
+
+div.section4 {
+    width: 100%;
+    background: rgb(163, 130, 108);
+    padding: 6% 3% 5% 3%;
+}
+blockquote {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 55px;
+    font-style: italic;
+}
+blockquote::before {
+    content: open-quote;
+}
+blockquote::after {
+    content: close-quote;
+}
+div.sec4p {
+    padding-top: 2%;
+}
+div.sec4p p {
+    color: #fff;
+    font-size: 24px;
+}
+div.section5 {
+    text-align: center;
+    padding-top: 8%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 5%;
+    width: 100%;
+}
+div.contactForm h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    padding-bottom: 1%;
+}
+div.contactForm p {
+    font-size: 24px;
+    padding-bottom: 4%;
+}
+input[type="text"] {
+    width: 450px;
+    font-size: 20px;
+    padding: 6px;
+    margin-bottom: 3%;
+    border-radius: 7px;
+}
+textarea {
+    width: 450px;
+    font-size: 25px;
+    padding: 6px;
+    margin-bottom: 3%;
+    border-radius: 7px;
+}
+div.submit button {
+    font-size: 20px;
+    text-align: center;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 7px;
+    background:rgb(163, 130, 108);
+    color: #fff; 
+}
+div.submit button:hover {
+    background: #cfb491;
+    transition: .5s;
+    cursor: pointer;
+}
+div.last {
+    background: #e8eaec;
+    width: 100%;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.footerText h2 {
+    font-size: 45px;
+    font-weight: bolder;
+    padding-bottom: 4%;
+
+}
+.footerText p {
+    font-size: 19px;
+}
+p.address {
+    padding-bottom: 5%;
+}
+p.copyright {
+    font-size: 19px;
+    padding-left: 5%;
+    padding-bottom: 6%;
+}
+.footsy ul li {
+    list-style: none;
+}
+.footsy ul li a {
+    color: #000;
+    text-decoration: none;
+
+}
+.footsy ul li a:hover {
+    color: #82817e;
+    transition: .5s;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;} 
+
+
+@media screen and (max-width: 1024px) {
+    nav {
+        display: block;
+    }
+    h2.logo {
+        text-align: center;
+        font-size: 18px;
+    }
+    ul.topnav li {
+        display: none;
+    }
+    ul.topnav li.dropdownIcon{
+        display: block;
+        float: right;
+        transition: .5s;
+    }
+
+    ul.topnav.responsive li.dropdownIcon{
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: white;
+    }
+
+    ul.topnav.responsive {
+        position: relative;
+    }
+
+    ul.topnav.responsive li {
+        display: inline;
+        float: none;
+    }
+
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+        color: white;
+    }
+    h1.firstText {
+        font-size: 50px;
+    }
+    button.vision {
+        font-size: 20px;
+        padding: 12px 20px;
+        margin: 4%;
+    }
+
+    .col-6, .col-5, .col-7 {
+        width: 100%;
+        margin: 0;
+    }
+    .sec3-img img, .educationImg img {
+        width: 100%;
+        padding: 10px;
+        height: 100%;
+
+    }
+    .section4 {
+        width: 100%;
+    }
+    blockquote {
+        font-size: 40px;
+    }
+    div.contactForm h1 {
+        font-size: 35px;
+    }
+    div.contactForm p {
+        font-size: 20px;
+    }
+    input[type="text"] {
+        width: 100%;
+    }
+    textarea {
+        width: 100%;
+    }
+    .map {
+        width: 100%;
+        padding-top: 5%;
+    }
+    .footerText h2 {
+        font-size: 25px;
+    }
+    .footsy ul li a {
+        font-size: 20px;
+    }
+     
+
+
+}
